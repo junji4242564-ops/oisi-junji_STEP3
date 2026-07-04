@@ -1,149 +1,127 @@
-body{
-    font-family: "Yu Gothic" ,"Helvetica", "sans-serif";
-    background-color: #faf8f5;
-
+body {
+  font-family: "Yu Gothic", "Helvetica", "sans-serif";
+  background-color: #faf8f5;
 }
 
-
-
- li a:hover {
-    color: chartreuse;
-    font-weight: bold;
- }
-
-
-h2{
- color: #006633;
-    border-bottom: 2px solid #336925; 
-    display: inline-block;             
-    padding-bottom: 5px;             
-    margin-bottom: 20px;             
+li a:hover {
+  color: chartreuse;
+  font-weight: bold;
 }
 
-
-
-header{
-background-color:#006633;
-color: white;
-text-align: center;
-padding: 15px 0;
-
+h2 {
+  color: #006633;
+  border-bottom: 2px solid #336925;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
+header {
+  background-color: #006633;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
 
 nav a {
-    color: white;         
-    text-decoration: none; 
-
+  color: white;
+  text-decoration: none;
 }
 
-.shop-image img{
-height:500px ;
+.shop-image img {
+  height: 500px;
 }
-
-
-
 
 nav ul {
-    list-style: none;      
-    padding: 0;
-    margin: 0;
-    display: flex;          
-    justify-content: center;
-    gap: 20px;             
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav li {
-    
-    margin: 15px 0;        
+  margin: 15px 0;
 }
 
-main{
-text-align:center ;
+main {
+  text-align: center;
 }
 
-.menu-card{
- display: flex;           
- justify-content: center; 
- gap: 20px;               
- margin: 40px auto;       
- width: 100%;
- max-width: 1000px;       
+.menu-card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .menus {
-    background-color: #ffffff; 
-    border-radius: 10px;     
-    padding: 20px;            
-    width: 250px;             
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    text-align: center;       
-    box-sizing: border-box;
-
- }
-
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  box-sizing: border-box;
+}
 
 .menus img {
-    max-width: 100%;           
-    height: auto;              
-    margin-bottom: 15px;   
-    width: 100%;               
-    height: 180px;           
-    object-fit: cover;     
-    border-radius: 5px;
- }
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
 
- 
 .menus p {
-    margin: 0;
-    font-size: 16px;
-    color: #333333;           
- }
-
-
+  margin: 0;
+  font-size: 16px;
+  color: #333333;
+}
 
 form {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    gap: 20px;              
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
 }
-
 
 .form-group {
-    width: 30%;            
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-    text-align: left;      
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
-
 
 input,
 textarea {
-    width: 100%;           
-    padding: 8px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 button {
-    width: 30%;          
-    background-color: #336925; 
-    color: white;         
-    padding: 10px;         
-    border: none;          
-    border-radius: 5px;    
-    font-size: 16px;      
-    font-weight: bold;     
-    cursor: pointer;     
-    transition: background-color 0.3s;
+  width: 30%;
+  background-color: #336925;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-footer{
-    background-color:#006633 ;
-    text-align: center;
-    color: white;
-}
-
-
+footer {
+  background-color: #006633;
+  text-align: center;
+  color: white;
+}S
