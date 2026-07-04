@@ -1,61 +1,84 @@
-body {
-  font-family: "Yu Gothic", "Helvetica", "sans-serif";
-  background-color: #faf8f5;
+body{
+    font-family: "Yu Gothic" ,"Helvetica", "sans-serif";
+    background-color: #faf8f5;
+
 }
 
-li a:hover {
-  color: chartreuse;
-  font-weight: bold;
+
+
+ li a:hover {
+    color: chartreuse;
+    font-weight: bold;
+ }
+
+
+h2{
+ color: #006633;
+    border-bottom: 2px solid #336925; 
+    display: inline-block;             
+    padding-bottom: 5px;             
+    margin-bottom: 20px;             
 }
 
-h2 {
-  color: #006633;
-  border-bottom: 2px solid #336925;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+
+
+header{
+background-color:#006633;
+color: white;
+text-align: center;
+padding: 15px 0;
+
 }
 
-header {
-  background-color: #006633;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-}
 
 nav a {
-  color: white;
-  text-decoration: none;
+    color: white;         
+    text-decoration: none; 
+
+}
+
+.shop-image {
+  max-width: 800px;     /* 全体の最大幅を制限（お好みで調整） */
+  margin: 0 auto;       /* 画面中央に寄せる */
+  padding: 0 20px;      /* 左右の余白 */
 }
 
 .shop-image img {
-  height: 500px;
+  width: 100%;          /* 枠線いっぱいに広げる */
+  max-width: 600px;     /* 画像が大きくなりすぎないように制限 */
+  height: auto;         /* 高さを自動にして比率を保つ（500px固定を解除） */
+  margin-top: 20px;     /* テキストとの間の隙間 */
+  display: inline-block;
 }
 
+
+
+
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    list-style: none;      
+    padding: 0;
+    margin: 0;
+    display: flex;          
+    justify-content: center;
+    gap: 20px;             
 }
 
 nav li {
-  margin: 15px 0;
+    
+    margin: 15px 0;        
 }
 
-main {
-  text-align: center;
+main{
+text-align:center ;
 }
 
-.menu-card {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 40px auto;
-  width: 100%;
-  max-width: 1000px;
+.menu-card{
+ display: flex;           
+ justify-content: center; 
+ gap: 20px;               
+ margin: 40px auto;       
+ width: 100%;
+ max-width: 1000px;       
 }
 
 .menus {
@@ -66,50 +89,65 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   text-align: center;
   box-sizing: border-box;
+  
+  /* ▼ ここから追加：動きを滑らかにする設定 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* カーソルを指マークにする */
+}
+
+/* ▼ ここから追加：カーソルを合わせたとき（ホバー時）の動き */
+.menus:hover {
+  transform: translateY(-7px); /* 上に7px浮き上がらせる */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* 影を強くして浮遊感を出す */
 }
 
 .menus img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 5px;
-}
+    max-width: 100%;           
+    height: auto;              
+    margin-bottom: 15px;   
+    width: 100%;               
+    height: 180px;           
+    object-fit: cover;     
+    border-radius: 5px;
+ }
 
+ 
 .menus p {
-  margin: 0;
-  font-size: 16px;
-  color: #333333;
-}
+    margin: 0;
+    font-size: 16px;
+    color: #333333;           
+ }
+
+
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    gap: 20px;              
+    width: 100%;
 }
 
+
 .form-group {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+    width: 30%;            
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: left;      
 }
+
 
 input,
 textarea {
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
+    width: 100%;           
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 button {
   width: 30%;
-  background-color: #336925;
+  background-color: #336925; /* 元の緑色 */
   color: white;
   padding: 10px;
   border: none;
@@ -117,11 +155,19 @@ button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s;
+  /* transition の対象に background-color を指定（またはallでもOK） */
+  transition: background-color 0.3s ease; 
 }
 
-footer {
-  background-color: #006633;
-  text-align: center;
-  color: white;
-}S
+/* ▼ ここから追加：ボタンにカーソルを合わせたときの設定 */
+button:hover {
+  background-color: #1e3f16; /* カーソルが乗ったときの濃い緑色 */
+}
+
+footer{
+    background-color:#006633 ;
+    text-align: center;
+    color: white;
+}
+
+
