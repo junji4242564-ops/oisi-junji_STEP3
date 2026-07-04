@@ -38,16 +38,16 @@ nav a {
 }
 
 .shop-image {
-  max-width: 800px;     /* 全体の最大幅を制限（お好みで調整） */
-  margin: 0 auto;       /* 画面中央に寄せる */
-  padding: 0 20px;      /* 左右の余白 */
+  max-width: 800px;     
+  margin: 0 auto;       
+  padding: 0 20px;      
 }
 
 .shop-image img {
-  width: 100%;          /* 枠線いっぱいに広げる */
-  max-width: 600px;     /* 画像が大きくなりすぎないように制限 */
-  height: auto;         /* 高さを自動にして比率を保つ（500px固定を解除） */
-  margin-top: 20px;     /* テキストとの間の隙間 */
+  width: 100%;         
+  max-width: 600px;     
+  height: auto;         
+  margin-top: 20px;     
   display: inline-block;
 }
 
@@ -90,15 +90,14 @@ text-align:center ;
   text-align: center;
   box-sizing: border-box;
   
-  /* ▼ ここから追加：動きを滑らかにする設定 */
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer; /* カーソルを指マークにする */
+  cursor: pointer; 
 }
 
-/* ▼ ここから追加：カーソルを合わせたとき（ホバー時）の動き */
 .menus:hover {
-  transform: translateY(-7px); /* 上に7px浮き上がらせる */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* 影を強くして浮遊感を出す */
+  transform: translateY(-7px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .menus img {
@@ -147,7 +146,7 @@ textarea {
 
 button {
   width: 30%;
-  background-color: #336925; /* 元の緑色 */
+  background-color: #336925; 
   color: white;
   padding: 10px;
   border: none;
@@ -155,13 +154,12 @@ button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  /* transition の対象に background-color を指定（またはallでもOK） */
   transition: background-color 0.3s ease; 
 }
 
-/* ▼ ここから追加：ボタンにカーソルを合わせたときの設定 */
+
 button:hover {
-  background-color: #1e3f16; /* カーソルが乗ったときの濃い緑色 */
+  
 }
 
 footer{
